@@ -1,6 +1,6 @@
 # Important
 
-The only code written by myself can be found in the `main.c` file.  
+The only code written by myself can be found in the `src/main.c` file.  
 All other files were either created on compilation or externally provided to use features of the KL25Z board such as its LEDs or accelerometer.
 
 More details explaining the program's strcture can be found directly in the comments.  
