@@ -1,13 +1,7 @@
 /*----------------------------------------------------------------------------
-    Given code for Embedded Systems Lab 6 
-    
-    Poll the accelerometer every 20ms and detect changes in orientation.
-    Start the activation sequence using orientations and timings.
-
     There are two threads
        t_accel: polls the accelerometer every 20 ms.
        t_sequence: manages the orientation sequence of activation.
-    
  *---------------------------------------------------------------------------*/
  
 #include "cmsis_os2.h"
